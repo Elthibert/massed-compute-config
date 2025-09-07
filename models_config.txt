@@ -1,0 +1,19 @@
+Format: TYPE|URL|NOM_FICHIER_FINAL
+--- LoRAs ---
+LORA|https://huggingface.co/lightx2v/Wan2.2-Lightning/resolve/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1/high_noise_model.safetensors|w2.2-I2VL-high_noise_model.safetensors
+LORA|https://huggingface.co/lightx2v/Wan2.2-Lightning/resolve/main/Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1/low_noise_model.safetensors|w2.2-I2VL-low_noise_model.safetensors
+
+--- UNETs (GGUF) ---
+UNET|https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_K_S.gguf|Wan2.2-I2V-A14B-HighNoise-Q4_K_S.gguf
+UNET|https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-I2V-A14B-LowNoise-Q4_K_S.gguf|Wan2.2-I2V-A14B-LowNoise-Q4_K_S.gguf
+
+--- UNETs (FP8 Scaled) ---
+UNET|https://www.google.com/search?q=https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/resolve/main/I2V/Wan2_2-I2V-A14B-HIGH_fp8_e5m2_scaled_KJ.safetensors|Wan2_2-I2V-A14B-HIGH_fp8_e5m2_scaled_KJ.safetensors
+UNET|https://www.google.com/search?q=https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/resolve/main/I2V/Wan2_2-I2V-A14B-LOW_fp8_e5m2_scaled_KJ.safetensors|Wan2_2-I2V-A14B-LOW_fp8_e5m2_scaled_KJ.safetensors
+
+--- CLIP ---
+CLIP|https://huggingface.co/chatpig/encoder/resolve/main/umt5_xxl_fp8_e4m3fn_scaled.safetensors|umt5_xxl_fp8_e4m3fn_scaled.safetensors
+CLIP|https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/open-clip-xlm-roberta-large-vit-huge-14_visual_fp32.safetensors|open-clip-xlm-roberta-large-vit-huge-14_visual_fp32.safetensors
+
+--- VAE ---
+VAE|https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/VAE/Wan2.1_VAE.safetensors|Wan2.1_VAE.safetensors
